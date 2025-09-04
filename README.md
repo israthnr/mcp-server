@@ -8,7 +8,7 @@ This project implements a **Model Context Protocol (MCP) style server** using Fa
 
 ## Requirements
 - Python 3.10+
-- FastAPI, Uvicorn, Pydantic
+- FastAPI, Uvicorn
 
 ## Setup
 ```bash
@@ -17,3 +17,4 @@ cd mcp-server
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
