@@ -1,6 +1,6 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, EmailStr
 
 class EmailRequest(BaseModel):
-    recipient: str
+    recipient: EmailStr
     subject: str
     body: str
